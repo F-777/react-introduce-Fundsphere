@@ -8,6 +8,8 @@ import Uber from '../assets/uber.svg';
 import Walmart from '../assets/walmart.svg';
 import Logo from '../utils/Logo.svg';
 import MoneyCharger from '../assets/moneycharger.svg';
+import Costreduction from '../assets/constredution.svg';
+import MaskGrup from '../assets/Mask group.svg';
 
 
 gsap.registerPlugin(ScrollTrigger);
@@ -81,6 +83,10 @@ function Fundsphere() {
                     <div className="hero-home-container">
                         <div className="hero-home">
                             <img src={MoneyCharger} alt="money-charger" />
+                            <div className="griden-comp">
+                                <img src={Costreduction} alt="cost-reduct" />
+                                <img src={MaskGrup} alt="mask-grup" />
+                            </div>
                         </div>
                         <div className="hero-home-content">
                             <div className="hero-heading">
@@ -131,16 +137,15 @@ function Fundsphere() {
             </section>
 
             {/* section features */}
-
             
-            <section>
+            <section className="sec-features">
                 <div className="container">
-                    <div className="subsecsection-heading">
+                    <div className="subsection-heading">
                         <div className="label-badge-feature">
                             <text>FEATURES</text>
                         </div>
-                        <h2>Features designed for you</h2>
-                        <p>Growth-accelerating products for startups, ecommerce stores, angel investors, & more.</p>
+                        <h2>Features <br/>designed for you</h2>
+                        <p>Growth-accelerating products for startups,<br/> ecommerce stores, angel investors, & more.</p>
                     </div>
                     <div className="features-content">
                         <div className="features-wrapper-up">

@@ -10,7 +10,8 @@ import Logo from '../utils/Logo.svg';
 import MoneyCharger from '../assets/moneycharger.svg';
 import Costreduction from '../assets/constredution.svg';
 import MaskGrup from '../assets/Mask group.svg';
-
+import ScanImage from '../assets/scan.svg';
+import LevelImage from '../assets/level.svg';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -144,44 +145,48 @@ function Fundsphere() {
                         <div className="label-badge-feature">
                             <text>FEATURES</text>
                         </div>
+                        <div className="feder">
                         <h2>Features <br />designed for you</h2>
                         <p>Growth-accelerating products for startups,<br /> ecommerce stores, angel investors, & more.</p>
+                        </div>
                     </div>
                     <div className="features-content">
                         <div className="features-wrapper-up">
                             <div className="features-card-wrapper-1">
                                 <div className="features-card">
                                     <div className="features-card-heading">
-                                        <h3>Pay with Fundsphere, quick, simple and easy</h3>
-                                        <p>Use Fundsphere to pay to a merchant and enjoy optimal payment user experience.</p>
+                                        <h3>Pay with Fundsphere,<br/> quick, simple and easy</h3>
+                                        <p>Use Fundsphere to pay to a merchant and <br/> enjoy optimal payment user experience.</p>
                                     </div>
+                                    <img src={ScanImage} alt="image-scan" />
                                 </div>
                             </div>
                             <div className="features-card-wrapper-2">
                                 <div className="features-card">
                                     <div className="features-card-heading">
                                         <h3>Bank-level Security</h3>
-                                        <p>Personal information is encrypted and protected by industry standard banking security.</p>
+                                        <p>Personal information is encrypted and protected <br/> by industry standard banking security.</p>
                                     </div>
+                                    <img src={LevelImage} alt="level-image" />
                                 </div>
                             </div>
                         </div>
                         <div className="features-wrapper-low">
                             <div className="features-card-wrapper-3">
                                 <div className="features-card-heading">
-                                    <h3>Integrates with best of breed solution</h3>
-                                    <p>Integrate with best of payment processors and accounting software.</p>
+                                    <h3>Integrates with best <br/> of breed solution</h3>
+                                    <p>Integrate with best of payment <br/> processors and accounting software.</p>
                                 </div>
                             </div>
                             <div className="features-card-wrapper-4">
                                 <div className="features-card-heading">
                                     <h3>Cost Reduction</h3>
-                                    <p>Fundsphere Reduced Payments maintenance and processing fees. No hidden fees.</p>
+                                    <p>Fundsphere Reduced Payments maintenance <br/> and processing fees. No hidden fees.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <button className="btn-primary">See More Features</button>
+                    <button className="btn-features">See More Features</button>
                 </div>
             </section>
 

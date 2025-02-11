@@ -12,6 +12,7 @@ import Costreduction from '../assets/constredution.svg';
 import MaskGrup from '../assets/Mask group.svg';
 import ScanImage from '../assets/scan.svg';
 import LevelImage from '../assets/level.svg';
+import ListIcon from '../assets/Icon.svg';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -222,8 +223,8 @@ function Fundsphere() {
                                     <p className="sub-desc-bsc">Kickstart product research <br/>in your business at no cost.</p>
                                 </div>
                                 <ul className="list-bsc-price">
-                                    <li><text>Unlimited workspace</text></li>
-                                    <li><text>Access to RestAPI</text></li>
+                                    <li><img src={ListIcon} />Unlimited workspace</li>
+                                    <li><img src={ListIcon} />Access to RestAPI</li>
                                 </ul>
                             </div>
                             <div className="package-gap-1.5-bsc">
@@ -231,6 +232,7 @@ function Fundsphere() {
                                     <h1 className="plan-heading-bsc">$199</h1>
                                     <text>/month</text>
                                 </div>
+                                <button className="book-demo-btn">Book Demo</button>
                             </div>
                         </div>
 
@@ -243,10 +245,10 @@ function Fundsphere() {
                                     <p className="sub-desc-pro">Fuel your product workflow with <br/>more advanced research features</p>
                                 </div>
                                 <ul className="list-pro-price">
-                                    <li>Unlimited workspace</li>
-                                    <li>Access to RestAPI</li>
-                                    <li>Priority Customer Support</li>
-                                    <li>Real-Time Analytics</li>
+                                    <li><img src={ListIcon} />Unlimited workspace</li>
+                                    <li><img src={ListIcon} />Access to RestAPI</li>
+                                    <li><img src={ListIcon} />Priority Customer Support</li>
+                                    <li><img src={ListIcon} />Real-Time Analytics</li>
                                 </ul>
                             </div>
                             <div className="package-gap-1.5-pro">
@@ -254,6 +256,7 @@ function Fundsphere() {
                                     <h1 className="plan-heading-pro">$250</h1>
                                     <text>/month</text>
                                 </div>
+                                <button className="book-center">Book Demo</button>
                             </div>
                         </div>
 
@@ -266,14 +269,21 @@ function Fundsphere() {
                                     <p className="sub-desc-eps">Scale product research and <br/> learning across your company.</p>
                                 </div>
                                 <ul className="list-eps-price">
-                                    <li>Unlimited workspace</li>
-                                    <li>Access to RestAPI</li>
-                                    <li>Priority Customer Support</li>
-                                    <li>Real-Time Analytics</li>
-                                    <li>Data Export Capabilities</li>
-                                    <li>Advanced Security</li>
-                                    <li>Multi-User Access</li>
+                                    <li><img src={ListIcon} />Unlimited workspace</li>
+                                    <li><img src={ListIcon} />Access to RestAPI</li>
+                                    <li><img src={ListIcon} />Priority Customer Support</li>
+                                    <li><img src={ListIcon} />Real-Time Analytics</li>
+                                    <li><img src={ListIcon} />Data Export Capabilities</li>
+                                    <li><img src={ListIcon} />Advanced Security</li>
+                                    <li><img src={ListIcon} />Multi-User Access</li>
                                 </ul>
+                            </div>
+                            <div className="package-gap-1.5-eps">
+                                <div className="package-price-eps">
+                                    <h1 className="plan-heading-eps">$499</h1>
+                                    <text>/month</text>
+                                </div>
+                                <button className="book-demo-btn">Book Demo</button>
                             </div>
                         </div>
                     </div>
@@ -283,4 +293,4 @@ function Fundsphere() {
     )
 }
 
-export default Fundsphere;
+export default Fundsphere
